@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-11-03T16:56:51Z" name="testingmaterial" finished-at="2018-11-03T16:56:58Z" duration-ms="7178">
+    <groups>
+    </groups>
+    <test started-at="2018-11-03T16:56:51Z" name="testngTest" finished-at="2018-11-03T16:56:58Z" duration-ms="7178">
+      <class name="testTasks.TestCases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testTasks.TestCases@368f2016]" started-at="2018-11-03T20:56:51Z" name="setup" finished-at="2018-11-03T20:56:55Z" duration-ms="3909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateloginPage()[pri:0, instance:testTasks.TestCases@368f2016]" started-at="2018-11-03T20:56:55Z" name="validateloginPage" finished-at="2018-11-03T20:56:56Z" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginPage -->
+        <test-method signature="createTask()[pri:0, instance:testTasks.TestCases@368f2016]" started-at="2018-11-03T20:56:56Z" name="createTask" finished-at="2018-11-03T20:56:58Z" depends-on-methods="testTasks.TestCases.validateloginPage" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testTasks.TestCases@368f2016]" started-at="2018-11-03T20:56:58Z" name="tearDown" finished-at="2018-11-03T20:56:58Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testTasks.TestCases -->
+    </test> <!-- testngTest -->
+  </suite> <!-- testingmaterial -->
+</testng-results>

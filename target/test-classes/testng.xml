@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="testingmaterial" verbose="1" >
+  <test name="testngTest">
+   <classes>
+      <class name="testTasks.TestCases">
+        <methods>
+        	<include name="validateloginPage" />
+            <include name="createTask" />
+        </methods> 
+      </class>
+    </classes>
+ </test>
+</suite>
